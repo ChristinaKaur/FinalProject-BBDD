@@ -1,0 +1,11 @@
+b) Donar d’alta un personatge FET
+No escrius bé la data de creació (la variable $data és buida)
+
+c) Inscriure en una cursa
+El primer l’insereixes bé però per la resta et dóna un error "Warning: Undefined array key "codi" in...24" perquè $_POST[‘codi’] només existeix quan vens de inscriureCursa.php però no quan vens de inscriureCursa_BD.php (via el botó Següent) Ho havies de guardar a $_SESSION
+
+d) Entrar els temps d’una cursa
+El format del temps no és el demanat MI:SS
+
+Aspecte/Interfície
+La nostra, lleugerament retocada i amb els colors canviats. Vigila jugant amb colors perquè el text d’entrada blanc sobre blau clar no és massa llegible
